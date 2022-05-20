@@ -1,0 +1,164 @@
+.footer-container {
+	margin-top: auto;
+}
+
+.footer-container__content{
+	border-top: 1px solid #FFFFFF;
+}
+
+.footer-container__section {
+	height: 140px;
+	margin-top: 0;
+}
+
+.footer {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.footer__col {
+	display: flex;
+	align-items: center;
+}
+
+.footer__col--alighn--right {
+	align-items: flex-end;
+}
+
+.logo, .menu, .menu__item, .contacts{
+	display: flex;
+}
+
+.logo{
+	float: left;
+	position: absolute;
+	top: 11px;
+	left: 0;
+	margin-top: 29px;
+}
+
+.menu__f {
+	position: absolute;
+	left: 165px;
+	top: 46px;
+}
+
+.menu__list {
+	display: flex;
+}
+
+.menu__item {
+	vertical-align: middle;
+	margin-right: 50px;
+}
+
+.menu__item:last-child {
+	margin-right: 0;
+}
+
+.menu__link { 
+	font-size: 14px;
+}
+
+.menu__link:hover {
+	color: #F5170E;
+}
+
+.contacts{
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	float: right;
+	top: 5px;
+	right: 0%;
+	font-style: normal;
+}
+
+.contacts__free {
+	color:  #9A9A9A;
+	font-size: 11px;
+	margin-bottom: 6px;
+	text-align: end;
+}
+
+.contacts__phone {
+	text-decoration: none;
+	font-size: 26px;
+	margin-bottom: 4px;
+}
+
+.contacts__info	{
+	font-size: 13px;
+	text-decoration: underline;
+	color: #fff
+}
+
+.socials__item {
+	display: flex;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+
+.wrap__socials {
+	display: flex;
+}
+
+.socials {
+ display: flex;
+ justify-content: space-between;
+ margin-right: 252px;
+ margin-bottom: 38px;
+ margin-top: 18px;
+}
+
+.social__item:last-child {
+	margin-right: 0;
+}
+
+.social__item {
+	transition: 0.5s;
+}
+
+.social__link {
+	display: flex;
+	text-decoration: none;
+	width: 36px;
+	height: 36px;
+	background: center center no-repeat;
+	transition: 0.5s;
+}
+
+.socials__item--icon--tg .social__link {
+	background-image: url(../../img/telegram.png);
+}
+
+.socials__item--icon--tg .social__link:hover {
+	background: url(../../img/t.png);
+}
+
+.socials__item--icon--vk .social__link {
+	background-image: url(../../img/vk.png);
+}
+
+.socials__item--icon--vk .social__link:hover {
+	background: url(../../img/v.png);
+}
+
+.socials__item--icon--fb .social__link {
+	background-image: url(../../img/f.png);
+}
+
+.socials__item--icon--fb .social__link:hover {
+	background: url(../../img/f2.png);
+}
+
+.socials__item--icon--in .social__link {
+	background: url(../../img/in.png);
+}
+
+.socials__item--icon--in .social__link:hover {
+	background: url(../../img/i.png);
+}
+
